@@ -1,0 +1,310 @@
+{
+  "linha4": {
+    "nome": "Linha 4",
+    "id": "4",
+    "conce": "VQ",
+    "cor": "#E4B33C",
+    "apelido": "Amarela",
+    "estacoes": [
+      {
+        "nome": "Luz",
+        "sigla": "LUZ"
+      },
+      {
+        "nome": "República",
+        "sigla": "REP"
+      },
+      {
+        "nome": "Higienópolis-Mackenzie",
+        "sigla": "HGN"
+      },
+      {
+        "nome": "Paulista",
+        "sigla": "PAU"
+      },
+      {
+        "nome": "Oscar Freire",
+        "sigla": "OCR"
+      },
+      {
+        "nome": "Fradique Coutinho",
+        "sigla": "FRD"
+      },
+      {
+        "nome": "Faria Lima",
+        "sigla": "FLM"
+      },
+      {
+        "nome": "Pinheiros",
+        "sigla": "PIH"
+      },
+      {
+        "nome": "Butantã",
+        "sigla": "BUT"
+      },
+      {
+        "nome": "São Paulo–Morumbi",
+        "sigla": "SPM"
+      },
+      {
+        "nome": "Vila Sônia",
+        "sigla": "VLS"
+      }
+    ]
+  },
+  "linha5": {
+    "nome": "Linha 5",
+    "id": "5",
+    "conce": "VM",
+    "cor": "#76509B",
+    "apelido": "Lilás",
+    "estacoes": [
+      {
+        "nome": "Capão Redondo",
+        "sigla": "CPR"
+      },
+      {
+        "nome": "Campo Limpo",
+        "sigla": "CPL"
+      },
+      {
+        "nome": "Vila das Belezas",
+        "sigla": "VBE"
+      },
+      {
+        "nome": "Giovanni Gronchi",
+        "sigla": "GGR"
+      },
+      {
+        "nome": "Santo Amaro",
+        "sigla": "STA"
+      },
+      {
+        "nome": "Largo Treze",
+        "sigla": "LTR"
+      },
+      {
+        "nome": "Adolfo Pinheiro",
+        "sigla": "APN"
+      },
+      {
+        "nome": "Alto da Boa Vista",
+        "sigla": "ABV"
+      },
+      {
+        "nome": "Borba Gato",
+        "sigla": "BGA"
+      },
+      {
+        "nome": "Brooklin",
+        "sigla": "BRK"
+      },
+      {
+        "nome": "Campo Belo",
+        "sigla": "CPB"
+      },
+      {
+        "nome": "Eucaliptos",
+        "sigla": "ECT"
+      },
+      {
+        "nome": "Moema",
+        "sigla": "MOE"
+      },
+      {
+        "nome": "AACD-Servidor",
+        "sigla": "SER"
+      },
+      {
+        "nome": "Hospital São Paulo",
+        "sigla": "HSP"
+      },
+      {
+        "nome": "Santa Cruz",
+        "sigla": "SCZ"
+      },
+      {
+        "nome": "Chácara Klabin",
+        "sigla": "CKB"
+      }
+    ]
+  },
+  "linha8": {
+    "nome": "Linha 8",
+    "id": "8",
+    "conce": "VM",
+    "cor": "#AFA690",
+    "apelido": "Diamante",
+    "estacoes": [
+      {
+        "nome": "Júlio Prestes",
+        "sigla": "JPR"
+      },
+      {
+        "nome": "Palmeiras-Barra Funda",
+        "sigla": "BFU"
+      },
+      {
+        "nome": "Lapa",
+        "sigla": "LAB"
+      },
+      {
+        "nome": "Domingos de Moraes",
+        "sigla": "DMO"
+      },
+      {
+        "nome": "Imperatriz Leopoldina",
+        "sigla": "ILE"
+      },
+      {
+        "nome": "Presidente Altino",
+        "sigla": "PAL"
+      },
+      {
+        "nome": "Osasco",
+        "sigla": "OSA"
+      },
+      {
+        "nome": "Comandante Sampaio",
+        "sigla": "CSA"
+      },
+      {
+        "nome": "Quitaúna",
+        "sigla": "QTU"
+      },
+      {
+        "nome": "General Miguel Costa",
+        "sigla": "GMC"
+      },
+      {
+        "nome": "Carapicuíba",
+        "sigla": "CPB"
+      },
+      {
+        "nome": "Santa Terezinha",
+        "sigla": "STE"
+      },
+      {
+        "nome": "Antônio João",
+        "sigla": "AJO"
+      },
+      {
+        "nome": "Barueri",
+        "sigla": "BRU"
+      },
+      {
+        "nome": "Jardim Belval",
+        "sigla": "JBE"
+      },
+      {
+        "nome": "Jardim Silveira",
+        "sigla": "JSI"
+      },
+      {
+        "nome": "Jandira",
+        "sigla": "JDI"
+      },
+      {
+        "nome": "Sagrado Coração",
+        "sigla": "SCO"
+      },
+      {
+        "nome": "Engenheiro Cardoso",
+        "sigla": "ECD"
+      },
+      {
+        "nome": "Itapevi",
+        "sigla": "IPV"
+      }
+    ]
+  },
+  "linha9": {
+    "nome": "Linha 9",
+    "id": "9",
+    "conce": "VM",
+    "cor": "#34AEA4",
+    "apelido": "Esmeralda",
+    "estacoes": [
+      {
+        "nome": "Osasco",
+        "sigla": "OSA"
+      },
+      {
+        "nome": "Presidente Altino",
+        "sigla": "PAL"
+      },
+      {
+        "nome": "Ceasa",
+        "sigla": "CEA"
+      },
+      {
+        "nome": "Vila Lobos-Jaguaré",
+        "sigla": "JAG"
+      },
+      {
+        "nome": "Cidade Universitária",
+        "sigla": "USP"
+      },
+      {
+        "nome": "Pinheiros",
+        "sigla": "PIN"
+      },
+      {
+        "nome": "Hebraica-Rebouças",
+        "sigla": "HBR"
+      },
+      {
+        "nome": "Cidade Jardim",
+        "sigla": "CJD"
+      },
+      {
+        "nome": "Vila Olímpia",
+        "sigla": "VOL"
+      },
+      {
+        "nome": "Berrini",
+        "sigla": "BRR"
+      },
+      {
+        "nome": "Morumbi",
+        "sigla": "MRB"
+      },
+      {
+        "nome": "Granja Julieta",
+        "sigla": "GJT"
+      },
+      {
+        "nome": "João Dias",
+        "sigla": "JOD"
+      },
+      {
+        "nome": "Santo Amaro",
+        "sigla": "SAM"
+      },
+      {
+        "nome": "Socorro",
+        "sigla": "SOC"
+      },
+      {
+        "nome": "Jurubatuba",
+        "sigla": "JUR"
+      },
+      {
+        "nome": "Autódromo",
+        "sigla": "AUT"
+      },
+      {
+        "nome": "Primavera-Interlagos",
+        "sigla": "INT"
+      },
+      {
+        "nome": "Grajaú",
+        "sigla": "GRA"
+      },
+      {
+        "nome": "Bruno Covas/Mendes–Vila Natal",
+        "sigla": "MVN"
+      }
+    ]
+  }
+}

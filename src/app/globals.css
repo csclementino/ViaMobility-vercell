@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Room';
+  src: url('/fonts/Room-Black.ttf') format('ttf');
+  font-weight: 400; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'XXII Geom';
+  src: url('/fonts/xxii-geom-bold.otf') format('otf');
+  font-weight: 700; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'Quache';
+  src: url('/fonts/xii-geom-bold.ttf') format('ttf');
+  font-weight: 900; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('/fonts/Kanit-Regular.ttf') format('ttf');
+  font-weight: 400; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-regular.ttf') format('ttf');
+  font-weight: 400; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('/fonts/plex.ttf') format('ttf');
+  font-weight: 700; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@font-face {
+  font-family: 'DejaRip';
+  src: url('/fonts/DejaRip.otf') format('otf');
+  font-weight: 700; /* O peso da fonte */
+  font-style: normal; /* O estilo da fonte */
+  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+}
+
+@theme {
+  --font-room: "Room", "sans-serif";
+  --font-xxgeom: "XXII Geom", "sans-serif";
+  --font-quache: "Quache", "sans-serif";
+  --font-kanit: "Kanit", "sans-serif"; 
+  --font-inter: "Inter", "sans-serif";
+  --font-plex: "IBM Plex Mono", "sans-serif";
+  --font-deja: "DejaRip", "sans-serif";
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    #2d2d2d 0%, 
+    #1a1a1a 80%,   
+    #000000 100%  
+  );
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cor{
+  color:#ff1493 !important;
+}
