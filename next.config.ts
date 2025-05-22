@@ -6,8 +6,8 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   output: 'export',
-  basePath: isGithubPages ? '/ViaMobility' : '',
-  assetPrefix: isGithubPages ? '/ViaMobility/' : '',
+  basePath: isGithubPages ? '/ViaMobility-vercell' : '',
+  assetPrefix: isGithubPages ? '/ViaMobility-vercell/' : '',
 };
 
 export default nextConfig;
