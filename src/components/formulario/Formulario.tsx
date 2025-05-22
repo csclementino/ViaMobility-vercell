@@ -23,7 +23,7 @@ const Formulario = () => {
     }
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/login-usuario', {
+      const response = await fetch('viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/login-usuario', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
