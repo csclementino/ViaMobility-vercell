@@ -31,7 +31,7 @@ const LinhasStatus: React.FC = () => {
   useEffect(() => {
     const fetchDados = async () => {
       try {
-        const response = await fetch('viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/linhas');
+        const response = await fetch('https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/linhas');
         const data = await response.json();
 
         const atualizado = new Date().toLocaleTimeString('pt-BR', {

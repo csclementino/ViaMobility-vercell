@@ -29,7 +29,7 @@ const MeusReportesPage = () => {
         }
         const fetchReportes = async () => {
             try {
-                const response = await fetch(`viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/reportes/${usuarioId}`);
+                const response = await fetch(`https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/reportes/${usuarioId}`);
                 const data = await response.json();
 
                 if (data.sucesso && Array.isArray(data.dados_reportes)) {

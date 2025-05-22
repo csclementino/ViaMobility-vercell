@@ -49,7 +49,7 @@ const FormularioCadastro = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/cadastrar-usuario', { // Troque '/sua-api-endpoint' pela URL real da API
+      const response = await fetch('https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/cadastrar-usuario', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

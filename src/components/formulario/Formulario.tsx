@@ -23,7 +23,7 @@ const Formulario = () => {
     }
 
     try {
-      const response = await fetch('viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/login-usuario', {
+      const response = await fetch('https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/login-usuario', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

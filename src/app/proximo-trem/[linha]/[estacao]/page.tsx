@@ -32,7 +32,7 @@ export default function EstacaoPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/next-train/${conce}/${id}/${estacao}`);
+        const res = await fetch(`https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/next-train/${conce}/${id}/${estacao}`);
         const json = await res.json();
 
         if (json?.Status && json?.Data) {
