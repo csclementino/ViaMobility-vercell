@@ -9,21 +9,22 @@ Este projeto busca otimizar a experiência de quem utiliza o metrô, oferecendo 
 ## 🌐 Links
 
 - 🔗 **Repositório GitHub**: [Insira aqui o link do GitHub]
-- 🚀 **Site (Vercel)**: [Insira aqui o link do site no Vercel]
-- 🎥 **Vídeo demonstrativo no YouTube**: [Insira aqui o link do vídeo]
+- 🚀 **Site (Vercel)**: [https://via-mobility-vercell-ybs9-git-main-csclementinos-projects.vercel.app/]
+- 🎥 **Vídeo demonstrativo no YouTube**: [https://youtu.be/YVZ1wDfVEGA]
 
 ---
 
 ## 📁 Estrutura do Projeto
 
 ```
-/Vercell
+/Projeto
 │
 ├── public/                # Imagens, ícones e arquivos estáticos
+│   ├── fonts/         # Contém todas as fontes utilizadas no projeto
 ├── src/
-│   ├── app/        # Componentes reutilizáveis da interface
-│   ├── components/             # Páginas da aplicação (rotas Next.js)
-│   ├── data/          # Comunicação com a API
+│   ├── app/         # Páginas da aplicação (rotas Next.js)
+│   ├── components/   # Componentes reutilizáveis da interface          
+│   ├── data/          # Informações a serem consultadas
 ├── package.json           # Dependências e scripts
 └── README.md              # Documentação do projeto
 ```
