@@ -122,7 +122,9 @@ const MeusReportesPage = () => {
                                     <div className="space-y-3 grid grid-cols-2">
                                         <div className="flex items-center gap-3">
                                             <img src="/linhas.png" alt="Linha" className="w-6 h-6" />
-                                            <span className="text-white">{linhasData[reporte.linha]?.nome || reporte.linha}</span>
+                                            <span className="text-white">
+                                            {linhasData[reporte.linha as keyof typeof linhasData]?.nome || reporte.linha}
+                                            </span>                                        
                                         </div>
 
                                         <div className="flex items-center gap-3">
