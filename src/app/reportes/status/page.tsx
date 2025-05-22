@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-export default function ReportWaitPage() {
+function ReportWaitPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const status = searchParams.get('status');
@@ -11,18 +11,18 @@ export default function ReportWaitPage() {
   const [progress, setProgress] = useState(100);
 
   useEffect(() => {
-  const timeout = setTimeout(() => {
-    router.push('/tela_principal');
-  }, 8000);
+    const timeout = setTimeout(() => {
+      router.push('/tela_principal');
+    }, 8000);
 
-  const interval = setInterval(() => {
-    setProgress((prev) => (prev > 0 ? prev - 0.625 : 0));
-  }, 50);
+    const interval = setInterval(() => {
+      setProgress((prev) => (prev > 0 ? prev - 0.625 : 0));
+    }, 50);
 
-  return () => {
-    clearTimeout(timeout);
-    clearInterval(interval);
-  };
+    return () => {
+      clearTimeout(timeout);
+      clearInterval(interval);
+    };
   }, [router]);
 
   const config = {
@@ -82,12 +82,20 @@ export default function ReportWaitPage() {
 
       <div className="fixed bottom-0 left-0 w-full flex justify-center">
         <div className="w-full max-w-md h-[1.4vh] bg-[#1f1f1f] rounded-[21px] overflow-hidden">
-         <div
-          className={`bg-gradient-to-r ${state.gradient} h-full transition-all duration-75 ease-linear`}
-          style={{ width: `${progress}%` }}
-        ></div>
+          <div
+            className={`bg-gradient-to-r ${state.gradient} h-full transition-all duration-75 ease-linear`}
+            style={{ width: `${progress}%` }}
+          ></div>
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ReportWaitPage() {
+  return (
+    <Suspense fallback={<div className="text-white text-center mt-10">Carregando...</div>}>
+      <ReportWaitPageContent />
+    </Suspense>
   );
 }
