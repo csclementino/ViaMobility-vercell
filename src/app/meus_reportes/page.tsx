@@ -208,11 +208,12 @@ const MeusReportesPage = () => {
                                     >
                                         <option value="">Selecione uma estação</option>
                                         {editingReport.linha &&
-                                            linhasData[editingReport.linha]?.estacoes.map((station) => (
+                                            linhasData[editingReport.linha as keyof typeof linhasData]?.estacoes.map((station) => (
                                                 <option key={station.sigla} value={station.sigla}>
-                                                    {station.nome}
+                                                {station.nome}
                                                 </option>
-                                            ))}
+                                            ))
+                                            }
                                     </select>
                                 </div>
 
