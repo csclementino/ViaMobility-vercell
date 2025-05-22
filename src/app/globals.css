@@ -2,58 +2,58 @@
 
 @font-face {
   font-family: 'Room';
-  src: url('/fonts/Room-Black.ttf') format('ttf');
-  font-weight: 400; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/room-black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'XXII Geom';
-  src: url('/fonts/xxii-geom-bold.otf') format('otf');
-  font-weight: 700; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/xxii-geom-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Quache';
-  src: url('/fonts/xii-geom-bold.ttf') format('ttf');
-  font-weight: 900; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/quache-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Regular.ttf') format('ttf');
-  font-weight: 400; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/kanit-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/inter-regular.ttf') format('ttf');
-  font-weight: 400; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/inter-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'IBM Plex Mono';
-  src: url('/fonts/plex.ttf') format('ttf');
-  font-weight: 700; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/plex.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DejaRip';
-  src: url('/fonts/DejaRip.otf') format('otf');
-  font-weight: 700; /* O peso da fonte */
-  font-style: normal; /* O estilo da fonte */
-  font-display: swap; /* Como a fonte será exibida enquanto carrega */
+  src: url('/fonts/dejarip.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @theme {
@@ -65,6 +65,7 @@
   --font-plex: "IBM Plex Mono", "sans-serif";
   --font-deja: "DejaRip", "sans-serif";
 }
+
 
 
 :root {
