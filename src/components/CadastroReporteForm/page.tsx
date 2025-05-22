@@ -91,7 +91,7 @@ export const CadastroReporteForm = ({ tipoReporte }: CadastroFormProps) => {
               value={selectedLineKey}
               onChange={(e) => {
                 const keySelecionada = e.target.value;
-                setSelectedLineKey(keySelecionada);
+                setSelectedLineKey(keySelecionada as keyof typeof linhasData);
 
            
                 const linhaSelecionada = linhas.find(([key]) => key === keySelecionada);
