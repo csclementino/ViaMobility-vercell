@@ -8,6 +8,7 @@ import ConfirmarSenhaInput from '@/components/formularioCadastro/ConfirmarSenhaI
 import Botao from '../botaoGradienteVerdeAzul/page';
 import Link from 'next/link';
 import TituloAzul from '../TituloAzul/page';
+import { useRouter } from 'next/navigation';
 
 const FormularioCadastro = () => {
   const [nome, setNome] = useState('');
@@ -16,6 +17,7 @@ const FormularioCadastro = () => {
   const [confirmarSenha, setConfirmarSenha] = useState('');
   const [mensagem, setMensagem] = useState('');
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   // Função simples para validar email com regex
   const validarEmail = (email: string) => {
@@ -71,6 +73,10 @@ const FormularioCadastro = () => {
           setEmail('');
           setSenha('');
           setConfirmarSenha('');
+          localStorage.setItem('usuarioId', data.usuario.toString());
+          localStorage.setItem('username', data.nom_user.toString());
+          console.log(localStorage.getItem('usuarioId'));
+          router.push('/tela_principal');
         } else {
           // Caso a API retorne algo diferente de sucesso
           setMensagem(data.mensagem || 'Erro ao cadastrar passageiro.');
