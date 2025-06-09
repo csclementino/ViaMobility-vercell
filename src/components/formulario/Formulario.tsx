@@ -40,6 +40,7 @@ const Formulario = () => {
 
       // Sucesso: salvar ID e redirecionar
       localStorage.setItem('usuarioId', data.usuario.toString());
+      localStorage.setItem('username', data.nom_user.toString());
       console.log(localStorage.getItem('usuarioId'));
       router.push('/tela_principal');
     } catch (error) {
