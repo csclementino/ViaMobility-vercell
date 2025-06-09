@@ -12,23 +12,49 @@ const ProfileScreen = () => {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const [user, setUser] = useState<UserProfile>({
-    id: '1',
+    id: '',
     imagemPerfil: 'icone_usuario.png',
-    nome: 'Carlos',
-    sobrenome: 'Clementino',
-    tel: '11 972935394',
-    email: 'carlos-clementino@hotmail.com',
-    emailVerificado: true,
-    dataNascimento: '24/08/2005'
+    nome: '',
+    sobrenome: '',
+    tel: '',
+    email: '',
+    emailVerificado: false,
+    dataNascimento: ''
   });
 
-  const [profileImage] = useState(user.imagemPerfil);
+  const [profileImage, setProfileImage] = useState('icone_usuario.png');
 
   useEffect(() => {
     const usuarioId = localStorage.getItem('usuarioId');
     if (!usuarioId) {
-      router.push('/'); 
+      router.push('/');
+      return;
     }
+
+    const fetchUserData = async () => {
+      try {
+        const res = await fetch(`https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/buscar-usuario/${usuarioId}`);
+        if (!res.ok) throw new Error('Erro ao buscar dados do usuário');
+        const data = await res.json();
+
+        setUser({
+          id: data.dados_user.id || '',
+          imagemPerfil: 'icone_usuario.png',
+          nome: data.dados_user.nome || 'Não informado',
+          sobrenome: '',
+          tel: 'Não informado',
+          email: data.dados_user.email || 'Não informado',
+          emailVerificado: data.emailVerificado ?? false,
+          dataNascimento: data.dados_user.data_nascimento || 'Não informado'
+        });
+
+        setProfileImage('icone_usuario.png');
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    fetchUserData();
   }, [router]);
 
   const handleLogout = () => {
@@ -39,12 +65,10 @@ const ProfileScreen = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-4 min-h-screen">
-      {/* Cabeçalho */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-center mb-8 mt-8">Meu Perfil</h1>
       </div>
 
-      {/* Foto de perfil */}
       <div className="relative flex items-center w-full h-20">
         <Link href="/editar_foto_perfil" className="absolute -bottom-16 left-6 w-20 h-32">
           <div className="border-4 border-white rounded-full overflow-hidden">
@@ -60,13 +84,11 @@ const ProfileScreen = () => {
         </Link>
       </div>
 
-      {/* Nome do usuário e descrição */}
       <div className="text-left m-6 mt-10">
-        <h2 className="text-xl font-semibold">{user.nome} {user.sobrenome}</h2>
+        <h2 className="text-xl font-semibold">{user.nome} {user.sobrenome || ''}</h2>
         <p className="text-gray-500 mt-1">Usuário do Metrô SP</p>
       </div>
 
-      {/* Seção de informações */}
       <div className="rounded-2xl bg-[#2D2D2D] shadow p-5 m-4 relative">
         <div className="flex justify-between items-center mb-4 text-left">
           <h2 className="text-lg font-semibold text-white">Suas informações</h2>
@@ -95,12 +117,11 @@ const ProfileScreen = () => {
 
           <div>
             <p>Nome completo</p>
-            <p className="text-xs mt-1 text-gray-400">{user.nome} {user.sobrenome}</p>
+            <p className="text-xs mt-1 text-gray-400">{user.nome} {user.sobrenome || ''}</p>
           </div>
         </div>
       </div>
 
-      {/* Botão de saída */}
       <div className="text-center py-4 mb-18">
         <button
           onClick={handleLogout}
