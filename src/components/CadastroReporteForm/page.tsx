@@ -174,6 +174,8 @@ export const CadastroReporteForm = ({ tipoReporte }: CadastroFormProps) => {
                 }
 
                 const now = new Date();
+                const offset = -3; 
+                now.setHours(now.getHours() + offset);
                 const dataCriacao = now.toISOString();
 
                 const newReporte = {
