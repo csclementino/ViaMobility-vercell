@@ -26,7 +26,7 @@ const CATEGORY_DATA: { [key: string]: { name: string; icon: string } } = {
   'roubo': { name: 'Roubo', icon: '/roubo.png' },
   'vandalismo': { name: 'Vandalismo', icon: '/vandalismo.png' },
   'violencia': { name: 'Violência', icon: '/violencia.png' },
-  'venda-ilegal': { name: 'Venda Ilegal', icon: '/vendedor.png' }
+  'vendedor-ilegal': { name: 'Vendedor Ilegal', icon: '/vendedor.png' }
 };
 
 export const CadastroReporteForm = ({ tipoReporte }: CadastroFormProps) => {
