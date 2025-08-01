@@ -43,7 +43,7 @@ export default function RotaFinal() {
   const fetchData = async () => {
     try {
       const [apiResponse] = await Promise.all([
-        fetch(`http://192.168.15.93:8000/api/rotas/origem/${origem}/destino/${destino}`),
+        fetch(`https://viamobility-backend-dzb8a3hterh6d2ce.brazilsouth-01.azurewebsites.net/api/rotas/origem/${origem}/destino/${destino}`),
         new Promise(resolve => setTimeout(resolve, 2000)), 
       ]);
 
