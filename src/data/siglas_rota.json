@@ -1,0 +1,838 @@
+
+
+{
+  "Azul": [
+    {
+      "nome": "Jabaquara",
+      "sigla": "JAB"
+    },
+    {
+      "nome": "Conceição",
+      "sigla": "CON"
+    },
+    {
+      "nome": "São Judas",
+      "sigla": "SJU"
+    },
+    {
+      "nome": "Saúde",
+      "sigla": "SAU"
+    },
+    {
+      "nome": "Praça da Árvore",
+      "sigla": "PDA"
+    },
+    {
+      "nome": "Santa Cruz",
+      "sigla": "SCZ"
+    },
+    {
+      "nome": "Vila Mariana",
+      "sigla": "VMA"
+    },
+    {
+      "nome": "Ana Rosa",
+      "sigla": "ANR"
+    },
+    {
+      "nome": "Paraíso",
+      "sigla": "PAR"
+    },
+    {
+      "nome": "Vergueiro",
+      "sigla": "VRG"
+    },
+    {
+      "nome": "São Joaquim",
+      "sigla": "SJQ"
+    },
+    {
+      "nome": "Liberdade",
+      "sigla": "LIB"
+    },
+    {
+      "nome": "Sé",
+      "sigla": "SEE"
+    },
+    {
+      "nome": "São Bento",
+      "sigla": "SBO"
+    },
+    {
+      "nome": "Luz",
+      "sigla": "LUZ"
+    },
+    {
+      "nome": "Tiradentes",
+      "sigla": "TDT"
+    },
+    {
+      "nome": "Armênia",
+      "sigla": "ARM"
+    },
+    {
+      "nome": "Tietê",
+      "sigla": "TIE"
+    },
+    {
+      "nome": "Carandiru",
+      "sigla": "CDU"
+    },
+    {
+      "nome": "Santana",
+      "sigla": "STN"
+    },
+    {
+      "nome": "Jardim São Paulo",
+      "sigla": "JSP"
+    },
+    {
+      "nome": "Parada Inglesa",
+      "sigla": "PIG"
+    },
+    {
+      "nome": "Tucuruvi",
+      "sigla": "TUC"
+    }
+  ],
+  "Lilás": [
+    {
+      "nome": "Santa Cruz",
+      "sigla": "SCZ"
+    },
+    {
+      "nome": "Chácara Klabin",
+      "sigla": "CKB"
+    },
+    {
+      "nome": "Capão Redondo",
+      "sigla": "CRD"
+    },
+    {
+      "nome": "Campo Limpo",
+      "sigla": "CPL"
+    },
+    {
+      "nome": "Vila das Belezas",
+      "sigla": "VBE"
+    },
+    {
+      "nome": "Giovanni Gronchi",
+      "sigla": "GGR"
+    },
+    {
+      "nome": "Santo Amaro",
+      "sigla": "SAM"
+    },
+    {
+      "nome": "Largo Treze",
+      "sigla": "LTR"
+    },
+    {
+      "nome": "Adolfo Pinheiro",
+      "sigla": "API"
+    },
+    {
+      "nome": "Alto da Boa Vista",
+      "sigla": "ABV"
+    },
+    {
+      "nome": "Borba Gato",
+      "sigla": "BGA"
+    },
+    {
+      "nome": "Brooklin",
+      "sigla": "BRK"
+    },
+    {
+      "nome": "Campo Belo",
+      "sigla": "CBL"
+    },
+    {
+      "nome": "Eucaliptos",
+      "sigla": "EUC"
+    },
+    {
+      "nome": "Moema",
+      "sigla": "MOE"
+    },
+    {
+      "nome": "AACD-Servidor",
+      "sigla": "AAC"
+    },
+    {
+      "nome": "Hospital São Paulo",
+      "sigla": "HSP"
+    }
+  ],
+  "Verde": [
+    {
+      "nome": "Ana Rosa",
+      "sigla": "ANR"
+    },
+    {
+      "nome": "Paraíso",
+      "sigla": "PAR"
+    },
+    {
+      "nome": "Vila Madalena",
+      "sigla": "VMD"
+    },
+    {
+      "nome": "Sumaré",
+      "sigla": "SUM"
+    },
+    {
+      "nome": "Clínicas",
+      "sigla": "CLI"
+    },
+    {
+      "nome": "Consolação",
+      "sigla": "CSL"
+    },
+    {
+      "nome": "Trianon-Masp",
+      "sigla": "TMA"
+    },
+    {
+      "nome": "Brigadeiro",
+      "sigla": "BGD"
+    },
+    {
+      "nome": "Chácara Klabin",
+      "sigla": "CKB"
+    },
+    {
+      "nome": "Santos-Imigrantes",
+      "sigla": "SIM"
+    },
+    {
+      "nome": "Alto do Ipiranga",
+      "sigla": "AIP"
+    },
+    {
+      "nome": "Sacomã",
+      "sigla": "SAC"
+    },
+    {
+      "nome": "Tamanduateí",
+      "sigla": "TMD"
+    },
+    {
+      "nome": "Vila Prudente",
+      "sigla": "VPT"
+    },
+    {
+      "nome": "Paulista",
+      "sigla": "PAU"
+    }
+  ],
+  "Vermelha": [
+    {
+      "nome": "Sé",
+      "sigla": "SEE"
+    },
+    {
+      "nome": "Barra Funda",
+      "sigla": "BFU"
+    },
+    {
+      "nome": "Mal. Deodoro",
+      "sigla": "MDE"
+    },
+    {
+      "nome": "Santa Cecília",
+      "sigla": "STC"
+    },
+    {
+      "nome": "República",
+      "sigla": "REP"
+    },
+    {
+      "nome": "Anhangabaú",
+      "sigla": "ANG"
+    },
+    {
+      "nome": "Pedro II",
+      "sigla": "PII"
+    },
+    {
+      "nome": "Brás",
+      "sigla": "BRA"
+    },
+    {
+      "nome": "Bresser-Mooca",
+      "sigla": "BMO"
+    },
+    {
+      "nome": "Belém",
+      "sigla": "BEL"
+    },
+    {
+      "nome": "Tatuapé",
+      "sigla": "TAT"
+    },
+    {
+      "nome": "Carrão",
+      "sigla": "CAO"
+    },
+    {
+      "nome": "Penha",
+      "sigla": "PEN"
+    },
+    {
+      "nome": "Vila Matilde",
+      "sigla": "VMT"
+    },
+    {
+      "nome": "Guilhermina Esperança",
+      "sigla": "GES"
+    },
+    {
+      "nome": "Patriarca",
+      "sigla": "PAT"
+    },
+    {
+      "nome": "Artur Alvim",
+      "sigla": "AAL"
+    },
+    {
+      "nome": "Itaquera",
+      "sigla": "ITA"
+    }
+  ],
+  "Amarela": [
+    {
+      "nome": "Luz",
+      "sigla": "LUZ"
+    },
+    {
+      "nome": "Consolação",
+      "sigla": "CSL"
+    },
+    {
+      "nome": "República",
+      "sigla": "REP"
+    },
+    {
+      "nome": "Vila Sônia",
+      "sigla": "VSO"
+    },
+    {
+      "nome": "São Paulo-Morumbi",
+      "sigla": "SPM"
+    },
+    {
+      "nome": "Butantã",
+      "sigla": "BUT"
+    },
+    {
+      "nome": "Pinheiros",
+      "sigla": "PIN"
+    },
+    {
+      "nome": "Faria Lima",
+      "sigla": "FLI"
+    },
+    {
+      "nome": "Fradique Coutinho",
+      "sigla": "FCO"
+    },
+    {
+      "nome": "Oscar Freire",
+      "sigla": "OFR"
+    },
+    {
+      "nome": "Paulista",
+      "sigla": "PAU"
+    },
+    {
+      "nome": "Higienópolis-Mackenzie",
+      "sigla": "HMA"
+    }
+  ],
+  "Rubi": [
+    {
+      "nome": "Luz",
+      "sigla": "LUZ"
+    },
+    {
+      "nome": "Barra Funda",
+      "sigla": "BFU"
+    },
+    {
+      "nome": "Jundiaí",
+      "sigla": "JUN"
+    },
+    {
+      "nome": "Várzea Paulista",
+      "sigla": "VPL"
+    },
+    {
+      "nome": "Campo Limpo Paulista",
+      "sigla": "CLP"
+    },
+    {
+      "nome": "Botujuru",
+      "sigla": "BOT"
+    },
+    {
+      "nome": "Francisco Morato",
+      "sigla": "FMO"
+    },
+    {
+      "nome": "Baltazar Fidélis",
+      "sigla": "BFI"
+    },
+    {
+      "nome": "Franco da Rocha",
+      "sigla": "FRR"
+    },
+    {
+      "nome": "Caieiras",
+      "sigla": "CAI"
+    },
+    {
+      "nome": "Perus",
+      "sigla": "PER"
+    },
+    {
+      "nome": "Vila Aurora",
+      "sigla": "VAU"
+    },
+    {
+      "nome": "Jaraguá",
+      "sigla": "JAR"
+    },
+    {
+      "nome": "Vila Clarice",
+      "sigla": "VCL"
+    },
+    {
+      "nome": "Pirituba",
+      "sigla": "PIR"
+    },
+    {
+      "nome": "Piqueri",
+      "sigla": "PIQ"
+    },
+    {
+      "nome": "Lapa",
+      "sigla": "LPA"
+    },
+    {
+      "nome": "Água Branca",
+      "sigla": "AGB"
+    }
+  ],
+  "Turquesa": [
+    {
+      "nome": "Luz",
+      "sigla": "LUZ"
+    },
+    {
+      "nome": "Tamanduateí",
+      "sigla": "TMD"
+    },
+    {
+      "nome": "Brás",
+      "sigla": "BRA"
+    },
+    {
+      "nome": "Rio Grande da Serra",
+      "sigla": "RGS"
+    },
+    {
+      "nome": "Ribeirão Pires",
+      "sigla": "RPI"
+    },
+    {
+      "nome": "Guapituba",
+      "sigla": "GPT"
+    },
+    {
+      "nome": "Mauá",
+      "sigla": "MAU"
+    },
+    {
+      "nome": "Capuava",
+      "sigla": "CAP"
+    },
+    {
+      "nome": "Santo André",
+      "sigla": "STA"
+    },
+    {
+      "nome": "Prefeito Saladino",
+      "sigla": "PSA"
+    },
+    {
+      "nome": "Utinga",
+      "sigla": "UTI"
+    },
+    {
+      "nome": "São Caetano do Sul",
+      "sigla": "SCS"
+    },
+    {
+      "nome": "Ipiranga",
+      "sigla": "IPI"
+    },
+    {
+      "nome": "Juventus-Mooca",
+      "sigla": "JMO"
+    }
+  ],
+  "Coral": [
+    {
+      "nome": "Luz",
+      "sigla": "LUZ"
+    },
+    {
+      "nome": "Brás",
+      "sigla": "BRA"
+    },
+    {
+      "nome": "Tatuapé",
+      "sigla": "TAT"
+    },
+    {
+      "nome": "Itaquera",
+      "sigla": "ITA"
+    },
+    {
+      "nome": "Estudantes",
+      "sigla": "EST"
+    },
+    {
+      "nome": "Mogi das Cruzes",
+      "sigla": "MDC"
+    },
+    {
+      "nome": "Braz Cubas",
+      "sigla": "BCU"
+    },
+    {
+      "nome": "Jundiapeba",
+      "sigla": "JDP"
+    },
+    {
+      "nome": "Suzano",
+      "sigla": "SUZ"
+    },
+    {
+      "nome": "Calmon Viana",
+      "sigla": "CVI"
+    },
+    {
+      "nome": "Poá",
+      "sigla": "POA"
+    },
+    {
+      "nome": "Ferraz de Vasconcelos",
+      "sigla": "FVC"
+    },
+    {
+      "nome": "Antonio Gianetti Neto",
+      "sigla": "AGN"
+    },
+    {
+      "nome": "Guaianases",
+      "sigla": "GUA"
+    },
+    {
+      "nome": "José Bonifácio",
+      "sigla": "JBO"
+    },
+    {
+      "nome": "Dom Bosco",
+      "sigla": "DBO"
+    }
+  ],
+  "Prata": [
+    {
+      "nome": "Vila Prudente",
+      "sigla": "VPT"
+    },
+    {
+      "nome": "Jardim Colonial",
+      "sigla": "JCL"
+    },
+    {
+      "nome": "São Mateus",
+      "sigla": "SMA"
+    },
+    {
+      "nome": "Fazenda da Juta",
+      "sigla": "FJU"
+    },
+    {
+      "nome": "Sapopemba",
+      "sigla": "SAP"
+    },
+    {
+      "nome": "Jd. Planalto",
+      "sigla": "JPL"
+    },
+    {
+      "nome": "Vila União",
+      "sigla": "VUN"
+    },
+    {
+      "nome": "Vila Tolstói",
+      "sigla": "VTO"
+    },
+    {
+      "nome": "Camilo Haddad",
+      "sigla": "CHA"
+    },
+    {
+      "nome": "São Lucas",
+      "sigla": "SLU"
+    },
+    {
+      "nome": "Oratório",
+      "sigla": "ORA"
+    }
+  ],
+  "Diamante": [
+    {
+      "nome": "Barra Funda",
+      "sigla": "BFU"
+    },
+    {
+      "nome": "Amador Bueno",
+      "sigla": "ABU"
+    },
+    {
+      "nome": "Santa Rita",
+      "sigla": "SRI"
+    },
+    {
+      "nome": "Itapevi",
+      "sigla": "IPV"
+    },
+    {
+      "nome": "Eng Cardoso",
+      "sigla": "ECA"
+    },
+    {
+      "nome": "Sagrado Coração",
+      "sigla": "SCO"
+    },
+    {
+      "nome": "Jandira",
+      "sigla": "JAN"
+    },
+    {
+      "nome": "Jardim Silveira",
+      "sigla": "JSL"
+    },
+    {
+      "nome": "Jardim Belval",
+      "sigla": "JBE"
+    },
+    {
+      "nome": "Barueri",
+      "sigla": "BAR"
+    },
+    {
+      "nome": "Antonio João",
+      "sigla": "AJO"
+    },
+    {
+      "nome": "Santa Terezinha",
+      "sigla": "STZ"
+    },
+    {
+      "nome": "Carapicuíba",
+      "sigla": "CPC"
+    },
+    {
+      "nome": "Gen. Miguel Costa",
+      "sigla": "GMC"
+    },
+    {
+      "nome": "Quitaúna",
+      "sigla": "QTA"
+    },
+    {
+      "nome": "Com. Sampaio",
+      "sigla": "CSA"
+    },
+    {
+      "nome": "Osasco",
+      "sigla": "OSA"
+    },
+    {
+      "nome": "Pres. Altino",
+      "sigla": "PAL"
+    },
+    {
+      "nome": "Imperatriz Leopoldina",
+      "sigla": "ILP"
+    },
+    {
+      "nome": "Domingos de Moraes",
+      "sigla": "DMO"
+    },
+    {
+      "nome": "Lapa (Diamante)",
+      "sigla": "LDI"
+    },
+    {
+      "nome": "Júlio Prestes",
+      "sigla": "JPR"
+    }
+  ],
+  "Safira": [
+    {
+      "nome": "Brás",
+      "sigla": "BRA"
+    },
+    {
+      "nome": "Tatuapé",
+      "sigla": "TAT"
+    },
+    {
+      "nome": "Calmon Viana",
+      "sigla": "CVI"
+    },
+    {
+      "nome": "Aracaré",
+      "sigla": "ARA"
+    },
+    {
+      "nome": "Itaquaquecetuba",
+      "sigla": "ITQ"
+    },
+    {
+      "nome": "Eng Manoel Feio",
+      "sigla": "EMF"
+    },
+    {
+      "nome": "Jardim Romano",
+      "sigla": "JRO"
+    },
+    {
+      "nome": "Itaim Paulista",
+      "sigla": "IPA"
+    },
+    {
+      "nome": "Jardim Helena-Vila Mara",
+      "sigla": "JHV"
+    },
+    {
+      "nome": "São Miguel Paulista",
+      "sigla": "SMP"
+    },
+    {
+      "nome": "Comendador Ermelino",
+      "sigla": "CER"
+    },
+    {
+      "nome": "USP Leste",
+      "sigla": "USL"
+    },
+    {
+      "nome": "Eng Goulart",
+      "sigla": "EGO"
+    }
+  ],
+  "Esmeralda": [
+    {
+      "nome": "Pinheiros",
+      "sigla": "PIN"
+    },
+    {
+      "nome": "Santo Amaro",
+      "sigla": "SAM"
+    },
+    {
+      "nome": "Osasco",
+      "sigla": "OSA"
+    },
+    {
+      "nome": "Pres. Altino",
+      "sigla": "PAL"
+    },
+    {
+      "nome": "Mendes-Vila Natal",
+      "sigla": "MVN"
+    },
+    {
+      "nome": "Grajaú",
+      "sigla": "GRA"
+    },
+    {
+      "nome": "Primavera-Interlagos",
+      "sigla": "PRI"
+    },
+    {
+      "nome": "Autódromo",
+      "sigla": "AUT"
+    },
+    {
+      "nome": "Jurubatuba",
+      "sigla": "JUR"
+    },
+    {
+      "nome": "Socorro",
+      "sigla": "SOC"
+    },
+    {
+      "nome": "João Dias",
+      "sigla": "JDI"
+    },
+    {
+      "nome": "Granja Julieta",
+      "sigla": "GJU"
+    },
+    {
+      "nome": "Morumbi",
+      "sigla": "MOR"
+    },
+    {
+      "nome": "Berrini",
+      "sigla": "BER"
+    },
+    {
+      "nome": "Vila Olímpia",
+      "sigla": "VOL"
+    },
+    {
+      "nome": "Cidade Jardim",
+      "sigla": "CJD"
+    },
+    {
+      "nome": "Hebraica-Rebouças",
+      "sigla": "HRE"
+    },
+    {
+      "nome": "Cidade Universitária",
+      "sigla": "CUN"
+    },
+    {
+      "nome": "Villa-Lobos-Jaguaré",
+      "sigla": "VLJ"
+    },
+    {
+      "nome": "Ceasa",
+      "sigla": "CEA"
+    }
+  ],
+  "Jade": [
+    {
+      "nome": "Eng Goulart",
+      "sigla": "EGO"
+    },
+    {
+      "nome": "Aeroporto-Guarulhos",
+      "sigla": "AGU"
+    },
+    {
+      "nome": "Guarulhos-Cecap",
+      "sigla": "GCE"
+    }
+  ]
+}
