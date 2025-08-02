@@ -18,7 +18,7 @@ export default function Origem() {
   return (
     <div className="relative h-screen ">
       <img
-        src="/origem-image2.jpg"
+        src="/origem-image2.webp"
         className="fixed top-0 left-0 w-full h-full object-cover z-0 "
         alt="fundo"
       />
@@ -49,4 +49,5 @@ export default function Origem() {
       </div>
     </div>
   );
+
 }
