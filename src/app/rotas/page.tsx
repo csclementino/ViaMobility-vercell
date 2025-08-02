@@ -16,7 +16,7 @@ export default function Rotas() {
   return (
     <div className="relative h-screen ">
       <img
-        src="/destino-image2.jpg"
+        src="/destino-image2.webp"
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
         alt="fundo"
       />
@@ -48,3 +48,4 @@ export default function Rotas() {
     </div>
   )
 }
+
