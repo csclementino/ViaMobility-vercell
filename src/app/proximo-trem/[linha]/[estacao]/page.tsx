@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Navegacao from '@/components/barra_navegacao/page';
 import BotaoVoltar from '@/components/BotaoVoltar/page';
+import BotaoModal from "@/components/BotaoModal/page";
 
 interface TremData {
   track: string;
@@ -139,7 +140,7 @@ export default function EstacaoPage() {
           </div>
         </div>
 
-        <div className="mt-8 flex flex-row items-center justify-center gap-2">
+        <div className="mt-5 flex flex-row items-center justify-center gap-2">
           <img src="/time-past.png" alt="icone passado" 
           className='w-[2.5vh] h-[2.5vh]'
           />
@@ -147,10 +148,13 @@ export default function EstacaoPage() {
             ÚLTIMA ATUALIZAÇÃO: <span className='font-inter'>{' '+ ultimaAtualizacao}</span>
           </h1>
         </div>
+            
+        <BotaoModal />
+        
 
-        <div className="text-white mt-[6vh] mb-[6vh] flex items-center justify-center">
+        <div className="text-white mt-[2.8vh] mb-[6vh] flex items-center justify-center">
           <Link href={"/reportes"}>
-          <div className='bg-[#434343] rounded-[20px] flex flex-row items-center justify-start h-[14vh] w-[37vh]'>
+          <div className='bg-[#434343] rounded-[20px] flex flex-row items-center justify-start h-[11vh] w-[38vh]'>
             <div
             className='w-[25%] flex items-center justify-center h-full bg-gradient-to-b from-[#F48E00] to-[#F82E2E] shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-[20px]'
             >
@@ -158,9 +162,9 @@ export default function EstacaoPage() {
               className='w-[7vh] h-[7vh]'
               />
             </div>
-            <div className='w-[65%] flex flex-col gap-3 items-center justify-center text-left pl-3 '>
-              <h1 className='leading-[100%] font-xxgeom text-[2.2vh]'>Viu algo suspeito ou<br></br>desconfortável?</h1>
-              <p className='font-inter text-[1.5vh] leading-[100%]'>Use a guia <span className='font-bold'>Reporte</span> e nos ajude a garantir a segurança de todos</p>
+            <div className='w-[65%] flex flex-col gap-1.5 items-center justify-center text-left pl-3 '>
+              <h1 className='w-full leading-[100%] font-xxgeom text-[2.2vh]'>Viu algo suspeito ou<br></br>desconfortável?</h1>
+              <p className='font-inter w-full text-[1.5vh] leading-[100%]'>Use a guia <span className='font-bold'>Reporte</span> e nos ajude a garantir a segurança de todos</p>
             </div>
           </div>
           </Link>
